@@ -67,7 +67,7 @@ cd mern-booking-app
     ```
 
 5. **VITE_API_BASE_URLL**:
-    - The `VITE_API_BASE_URL` should point to the URL where your backend application is running (typically `http://localhost:7000` if you're running it locally).
+    - The `VITE_API_BASE_URL` should point to the URL where your backend application is running (typically `http://localhost:8181` if you're running it locally).
 
 ## Running the Application
 
