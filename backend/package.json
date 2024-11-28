@@ -5,13 +5,11 @@
   "main": "./src/index.ts",
   "scripts": {
     "dev": "nodemon",
-    "build": "npx tsc",
+    "build": "npm install && npx tsc",
     "start": "node ./dist/index.js",
-    "e2e": "cross-env DOTENV_CONFIG_PATH=.env.e2e nodemon",
-    "vercel-build": "cd frontend && npm install && npm run build && cd ../backend && npm run build",
-    "postinstall": "npm run build"
+    "e2e": "cross-env DOTENV_CONFIG_PATH=.env.e2e nodemon"
   },
-  "author": "Akhilesh Kumar Yadav",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
