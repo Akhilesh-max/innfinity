@@ -17,7 +17,7 @@ cd innfinity
 
 ## Backend Configuration
 
-1. **Environment Files**: Navigate to the `backend` folder and create two files: `.env` and `.env.e2e`. Add the following contents to both files:
+1. **Environment Files**: Navigate to the `backend` folder and create two files: `.env`. Add the following contents to the file:
 
     ```plaintext
     MONGODB_CONNECTION_STRING=
